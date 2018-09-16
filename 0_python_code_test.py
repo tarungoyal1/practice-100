@@ -23,16 +23,17 @@ def getPrimes():
         num+=2
 
 if __name__ == '__main__':
-    # Highly inefficient code, try with input value 10000 or more
+    # Dynamic Programming illustration
+    # highly effecient code try with input value 10000 or more
 
     primecount = {}
+    n = getPrimes()
+    list = []
 
-    for x in range(1, int(input("Enter upper bound:"))):
-        plist = islice((x for x in getPrimes()), x)
-        primecount[x] = plist
+    for x in range(1, int(input("Enter the upper bound:")) + 1):
+        list.append(next(n))
+        primecount[x] = [x for x in list]
 
     for c, l in primecount.items():
         print(c, [x for x in l])
-
-
 
