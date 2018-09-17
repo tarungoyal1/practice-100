@@ -11,19 +11,34 @@ def getPrimes():
     num=2
     if num==2:
         yield 2
-        num=3
+        yield 3
+        yield 5
+        yield 7
+    num=7
     while 1:
+        num+=2
+        if num%3==0:
+            continue
+        if num%5==0:
+            continue
+        if num%7==0:
+            continue
+
         flag=1
-        for x in range(2, int(sqrt(num))+1):
-            if num%x==0:
+        i=5
+        w=2
+        while i*i <= num:
+            if num%i==0:
                 flag=0
                 break
+            i+=w
+            w=6-w
         if flag==1:
             yield num
-        num+=2
 
 if __name__ == '__main__':
     # Dynamic Programming illustration
+    # AKS primality test algo used
     # highly effecient code try with input value 10000 or more
 
     primecount = {}
