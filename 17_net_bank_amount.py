@@ -17,7 +17,7 @@
 
 def calculateNetBalance(translist):
     netbalance=0
-    for type, amount in transactionlist:
+    for type, amount in translist:
         if type=='d':
             netbalance+=int(amount)
         elif type=='w':
