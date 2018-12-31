@@ -1,0 +1,24 @@
+0_python_code_test.py
+10- sort words alphanum.py
+11- binary conversion divisible.py
+12- Each digit is even.py
+13_Calculate_number_and_letters.py
+14_Calculate_upper_lower.py
+15_calculate ap series.py
+16_square_odd_number_list.py
+17_net_bank_amount.py
+18_password_validation.py
+19_sort _multiple_keys.py
+1- numbers div 7 but not 5.py
+20_generators_for_7_divisible_nums.py
+21_robot_movement_distance.py
+22_word_frequency.py
+2- factorial of given number.py
+3- squaredictionary.py
+4- input as list and tuple.py
+6 - Square list of C D H.py
+7- 2d array i*j.py
+8 - sort words.py
+9- capitalizing lines.py
+file1.txt
+file.txt

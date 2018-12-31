@@ -37,7 +37,7 @@ def calculateDistance(movements):
             pos[1]-=int(steps)
         elif d=='right':
             pos[1]+=int(steps)
-    return int(sqrt((pos[0]**2)+(pos[1]**2)))
+    return int(round(sqrt((pos[0]**2)+(pos[1]**2))))
 
 def main():
     # first ask for the direction and steps in tuples
